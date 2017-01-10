@@ -1,0 +1,30 @@
+{
+  "name": "secret-checker",
+  "version": "1.0.0",
+  "description": "Checks git repos for secrets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UKHomeOffice/secret-checker.git"
+  },
+  "keywords": [
+    "git",
+    "secret"
+  ],
+  "author": "Tim Gent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UKHomeOffice/secret-checker/issues"
+  },
+  "homepage": "https://github.com/UKHomeOffice/secret-checker#readme",
+  "dependencies": {
+    "es6-promisify": "^5.0.0",
+    "fs-extra": "^1.0.0",
+    "nodegit": "^0.16.0",
+    "simple-git": "^1.65.0"
+  }
+}
